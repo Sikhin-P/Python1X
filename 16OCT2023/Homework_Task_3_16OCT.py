@@ -10,10 +10,10 @@ output - Eq, Iso, Scalene -
 Eq. = side 1 == side 2 = side 3
 """
 
-angles = [int(a) for a in input('Enter the angles of triangle separated with coma : \n').split(',')]
-if angles[0] == angles[1] == angles[2]:
+sides = [int(a) for a in input('Enter the sides of triangle separated with coma : \n').split(',')]
+if sides[0] == sides[1] == sides[2]:
     print('Eq')
-elif angles[0] == angles[1] or angles[0] == angles[2] or angles[1] == angles[2]:
+elif sides[0] == sides[1] or sides[0] == sides[2] or sides[1] == sides[2]:
     print('Iso')
 else:
     print('Scalene')
