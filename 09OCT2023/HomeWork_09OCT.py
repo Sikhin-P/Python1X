@@ -7,7 +7,7 @@ numbers = [int(n) for n in input("Enter the numbers separated with comma\n").spl
 # converting list to a set to eliminate duplicate numbers.
 unique = set(numbers)
 
-print(unique)
+print(*unique)
 
 # Sample Input : 1,2,3,4,5,11,22,16,10,0,1,4,5
 # Expected Result {0, 1, 2, 3, 4, 5, 10, 11, 16, 22}
